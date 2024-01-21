@@ -1,0 +1,59 @@
+/* Add this CSS to your existing styles or in a separate CSS file */
+
+footer {
+  background-color: #fafafa;
+  color: #000000;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.footer-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.footer-nav li {
+  margin: 0 10px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+  color: #60bf1f;
+}
+
+.footer-nav ul li::after {
+  content: "|";
+  margin: 0 8px;
+  color: rgb(0, 0, 0);
+}
+
+.footer-nav ul li:last-child::after {
+  content: "";
+}
+
+/* Maple img */
+
+.img-footer {
+  height: 2.1rem;
+  width: 4rem;
+  object-fit: contain;
+  margin-left: 1rem;
+}

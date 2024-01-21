@@ -1,0 +1,13 @@
+.gallery-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.Gallery {
+  margin: 2rem;
+}
+
+.h1-center {
+  text-align: center;
+  margin-bottom: 2rem;
+}

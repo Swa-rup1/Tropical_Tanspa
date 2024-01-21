@@ -1,0 +1,70 @@
+#About {
+  display: flex;
+  gap: 5rem;
+  margin: 2rem 1rem;
+}
+
+.left {
+  position: relative;
+}
+
+.h1-About {
+  position: relative;
+  display: inline-block;
+  font-size: 1.3rem;
+  width: 12rem;
+  text-align: left;
+  padding: 8px;
+}
+
+.h1-About::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 79%;
+  height: 2px;
+  background-color: #000;
+}
+
+.span-About {
+  color: rgb(76, 77, 76);
+  font-weight: bold;
+}
+
+.span-About:hover {
+  color: #60bf1f;
+}
+
+.p-About {
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
+#button-About {
+  font-size: 1rem;
+  padding: 10px;
+  background-color: #60bf1f;
+  border-radius: 4px;
+  cursor: pointer;
+  border-color: transparent;
+  color: white;
+}
+
+#button-About:hover {
+  transform: scale(1);
+  background-color: #71c737;
+}
+
+/* Media Query */
+
+@media (max-width: 767px) {
+  #About {
+    gap: 1rem;
+  }
+
+  .p-About {
+    font-size: 12px;
+    margin-bottom: 2.2rem;
+  }
+}
