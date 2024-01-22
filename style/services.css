@@ -48,3 +48,39 @@
   transform: scale(1);
   background-color: #71c737;
 }
+
+@media (max-width: 767px) {
+  .card-none {
+    margin-top: 4rem;
+  }
+
+  div.card-body h5.card-title {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  div.card-body p.card-text {
+    font-size: 11px;
+  }
+
+  .form-select {
+    font-size: 12px; /* Adjust the font size as needed */
+    line-height: 1.5; /* Adjust the line height as needed */
+  }
+
+  /* Optional: Adjust styling for the selected option */
+  .form-select option:checked {
+    background-color: #e8e8e8; /* Change the background color as needed */
+  }
+
+  button.button-serv {
+    padding: 0;
+  }
+  .card-1 {
+    margin-top: 1rem;
+  }
+
+  /* div.card-body select#min {
+    height: 1rem;
+  } */
+}

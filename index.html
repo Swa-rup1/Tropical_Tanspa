@@ -26,8 +26,23 @@
 
   <body>
     <!-- NavBar Section -->
+    <div class="navbar-detail">
+      <div class="left">
+        <address class="nav-address">
+          Collegetowne Plaza (South side), 134 10th St. S.W., Waverly, Iowa
+          50677
+        </address>
+      </div>
 
+      <div class="right nav-right ">
+        <img src="./img/call.png"  class="call-img"    alt="call-me" >319-352-2439</img>
+      </div>
+    </div>
     <nav class="navbar navbar-expand-lg mx-2">
+
+        <!-- Address NavBar -->
+      
+
       <div class="container-fluid">
         <div class="col-md-5 nav-space">
           <a class="navbar-brand logo" href="#">
@@ -71,18 +86,7 @@
           </div>
         </div>
 
-        <div class="navbar-detail">
-          <div class="left">
-            <address class="nav-address">
-              Collegetowne Plaza (South side), 134 10th St. S.W., Waverly, Iowa
-              50677
-            </address>
-          </div>
-
-          <div class="right nav-right ">
-            <img src="./img/call.png" alt="call-me" >319-352-2439</img>
-          </div>
-        </div>
+        
       </div>
     </nav>
 
@@ -137,7 +141,7 @@
 
         <div class="row mb-3">
           <!-- Card 1 -->
-          <div class="col-6 col-lg-4 mb-3">
+          <div class="col-4 col-sm-4 col-lg-4 mb-3">
             <div class="card card-i">
               <img
                 src="./img/aqua.jpg"
@@ -150,18 +154,18 @@
               </div>
 
               <div class="card-body ab">
-                <button class="button-serv">
-                  <a href="#" class="card-link"> Learn More</a>
+                <button class="button-serv card-1">
+                  <a href="#" class="card-link "> Learn More</a>
                 </button>
-                <button class="button-serv">
+                <!-- <button class="button-serv">
                   <a href="#" class="card-link">Book Now</a>
-                </button>
+                </button> -->
               </div>
             </div>
           </div>
 
           <!-- Card 2 -->
-          <div class="col-6 col-lg-4 mb-3">
+          <div class="col-4 col-sm-4 col-lg-4 mb-3">
             <div class="card card-none">
             
               <div class="card-body">
@@ -180,18 +184,18 @@
                 <button class="button-serv">
                   <a href="#" class="card-link"> Learn More</a>
                 </button>
-                <button class="button-serv">
+                <!-- <button class="button-serv">
                   <a href="#" class="card-link">Book Now</a>
-                </button>
+                </button> -->
               </div>
             </div>
           </div>
 
           <!-- Card 3 -->
-          <div class="col-6 col-lg-4 mb-3">
+          <div class="col-4 col-sm-4 col-lg-4 mb-3">
             <div class="card card-i">
               <img
-                src="./img/tanning.webp"
+                src="./img/tropicaltanspa_01.JPG"
                 class="card-img-top card-img"
                 style="background-position: center"
                 alt="Tanning"
@@ -201,27 +205,28 @@
                 <!-- <p class="card-text">
                  
                 </p> -->
-              </div>
-
-              <div class="card-body">
-                <p>Choose your Time below:</p>
-
-                <select name="min" id="min">
-                  <option value="seventy">70 minutes</option>
-                  <option value="hundred" selected>100 minutes</option>
-                  <option value="2hundred">200 minutes</option>
-                  <option value="3hundred">300 minutes</option>
-                  <option value="4hundred">400 minutes</option>
-                  <option value="5hundred">500 minutes</option>
-                </select>
+             
+                <p class="card-text">Choose your Time below:</p>
+                
+                  <select name="min" id="min" class="form-select form-select-sm">
+          
+                      <option value="seventy">70 minutes</option>
+                      <option value="hundred" selected>100 minutes</option>
+                      <option value="2hundred">200 minutes</option>
+                      <option value="3hundred">300 minutes</option>
+                      <option value="4hundred">400 minutes</option>
+                      <option value="5hundred">500 minutes</option>
+                   
+                  </select>
+                
               </div>
               <div class="card-body ab">
                 <button class="button-serv">
                   <a href="#" class="card-link"> Learn More</a>
                 </button>
-                <button class="button-serv">
+                <!-- <button class="button-serv">
                   <a href="#" class="card-link">Book Now</a>
-                </button>
+                </button> -->
               </div>
             </div>
           </div>
@@ -247,12 +252,12 @@
                <button class="button-serv">
                   <a href="#" class="card-link"> Learn More</a>
                 </button>
-                <button class="button-serv">
+                <!-- <button class="button-serv">
                   <a href="#" class="card-link">Book Now</a>
-                </button>
+                </button> -->
               </div>
             </div>
-          </div> -->
+          </div> 
 
           <!-- Card-End -->
         </div>
@@ -261,76 +266,31 @@
       <!-- Gallery Section -->
       <section class="Gallery" id="Gallery">
         <h1 class="h1-Gallery h1-center">Gallery</h1>
-        <div
-          id="carouselExampleIndicators"
-          class="carousel slide"
-          data-bs-ride="true"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
-          <div class="carousel-inner">
-            <!-- Image Slider -->
-            <div class="carousel-item active">
-              <img
-                src="./img/aqua.jpg"
-                class="d-block w-100 gallery-img"
-                alt="aqua-spa"
-              />
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-sm-3">
+              <img src="./img/tropicaltanspa_01.JPG" alt="aqua massage" class="img-fluid m-2 mx-2 gall">
             </div>
-            <div class="carousel-item">
-              <img
-                src="./img/beach.jpg"
-                class="d-block w-100 gallery-img"
-                alt="perfect-beach"
-              />
+            <div class="col-6 col-sm-3">
+              <img src="./img/tropicaltanspa_04.JPG" alt="Tanning Package" class="img-fluid m-2 mx-2">
             </div>
-            <div class="carousel-item">
-              <img
-                src="./img/tanning.webp"
-                class="d-block w-100 gallery-img"
-                alt="Tanning-spa"
-              />
+            <div class="col-6 col-sm-3">
+              <img src="./img/tropicaltanspa_06.JPG" alt="..." class="img-fluid m-2 mx-2">
+            </div>
+            <div class="col-6 col-sm-3">
+              <img src="./img/tropicaltanspa_08.JPG" alt="..." class="img-fluid m-2 mx-2">
             </div>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+        
+          <div class="row">
+            <div class="col-6 col-sm-3">
+              <img src="./img/tropicaltanspa_10.JPG" alt="..." class="img-fluid m-2 mx-2">
+            </div>
+            
+          </div>
         </div>
+        
       </section>
 
       <!-- Footer Section -->

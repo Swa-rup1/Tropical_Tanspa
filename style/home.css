@@ -2,7 +2,7 @@
 
 .Home {
   display: flex;
-   margin-top: 12.2rem;
+   margin-top: 3.5rem;
 
 }
 
@@ -56,6 +56,15 @@
 #button-home:hover {
   transform: scale(1);
   background-color: #2b2b2b;
+}
+
+
+@media (max-width: 767px) {
+
+.Home{
+  margin-top: 7.9rem;
+}
+
 }
 
 

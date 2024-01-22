@@ -2,13 +2,14 @@
 
 footer {
   background-color: #fafafa;
-  color: #000000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 10px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 4rem 0 0 0;
 }
 
 .footer-nav {
@@ -56,4 +57,17 @@ footer {
   width: 4rem;
   object-fit: contain;
   margin-left: 1rem;
+}
+
+/* Media Query */
+
+@media (max-width: 767px) {
+  .footer-nav ul li {
+    font-size: 11px;
+  }
+
+  p.p-footer,
+  p.copyright {
+    font-size: 10px;
+  }
 }
